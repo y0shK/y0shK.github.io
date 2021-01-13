@@ -6,6 +6,24 @@ a {
 hr {
     margin-top: 16px;
     border-color: powderblue;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.end_of_page_hr {
+    position: absolute;
+    left: 0;
+    bottom: 7em;
+    width: 100%;
+    margin: 0;
+}
+
+.end_of_page_copyright {
+    position: absolute;
+    bottom: 3em;
+    width: 100%;
+    margin: 0;
+    text-align: center;
 }
 
 h1 {
@@ -17,13 +35,18 @@ h1 {
 
 h2 {
     font-family: 'Cardo', serif;
-    margin-left: 160px;
+    margin-left: 256px;
+    margin-right: 256px;
     color: rgb(0, 35, 102);
+    font-size: 24px;
 }
 
 p {
     font-family: 'Cardo', serif;
-    margin-left: 160px;
+    margin-left: 256px;
+    margin-right: 256px;
+    font-size: 17px;
+    margin-top: 2em;
 }
 
 body {
