@@ -19,7 +19,7 @@ hr {
 }
 
 .end_of_page_copyright {
-    position: absolute;
+    position: relative;
     bottom: 0.5em;
     width: 100%;
     margin: 0;
