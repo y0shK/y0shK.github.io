@@ -20,7 +20,7 @@
             <div style="text-align: center;">
 
                 <!-- https://stackoverflow.com/questions/5119711/whats-the-easiest-way-to-put-space-between-2-side-by-side-buttons-in-asp-net -->
-                <div class="divider"></div>
+
 
             <!--&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - this is tab -->
                 <!-- target="_blank" makes the link open in a new tab when clicked-->
@@ -36,11 +36,12 @@
 
             </div>
 
-        <h2> About </h2>
+
+        <!-- <h2> About </h2> -->
 
         <!-- use the inline CSS only when exceptions to the rule are needed-->
 
-        <p> I am a student at <a href= "https://www.oxy.edu/" style="text-decoration: underline;" target="_blank"> Occidental College</a>,
+        <!-- <p> I am a student at <a href= "https://www.oxy.edu/" style="text-decoration: underline;" target="_blank"> Occidental College</a>,
             currently studying <a href = "https://www.oxy.edu/academics/areas-study/computer-science" style="text-decoration: underline;" target="_blank"> Computer Science</a>.
             I'm passionate about applying computer science to projects that span several different disciplines
             (like <a href="https://github.com/y0shK/WackyBlackjack" style="text-decoration: underline;" target="_blank">games like blackjack</a> or
@@ -49,13 +50,47 @@
 
             In the future, I aim to continue using my computer science knowledge to tangibly
             and deliberately improve the efficacy of non-computer science fields.
-        </p>
+        </p> -->
 
+
+        <details>
+            <summary>
+                Comp Sci at Oxy
+                <input id="comm" type="image" src="assets/CommTerminal.png" alt="Communications terminal">
+            </summary>
+            <p> I am a student at <a href= "https://www.oxy.edu/" style="text-decoration: underline;" target="_blank"> Occidental College</a>,
+            currently studying <a href = "https://www.oxy.edu/academics/areas-study/computer-science" style="text-decoration: underline;" target="_blank"> Computer Science</a>.</p>
+        </details>
+
+        <hr>
+
+        <details>
+            <summary>
+                Personal projects
+                <input type="image" src="assets/heartsAce.png" alt="Ace of hearts">
+            </summary>
+            <p>I have several personal projects. One of them is <i>Wacky Blackjack</i>, a blackjack game for Android
+                that offers the user several power-ups to make the game more interesting. The code can be found
+                <a href="https://github.com/y0shK/WackyBlackjack" style="text-decoration: underline;" target="_blank">here</a>.</p>
+        </details>
+
+        <hr>
+
+        <details>
+            <summary>
+                Future aspirations
+                <input id="hearts" type="image" src="assets/hearts6.png" alt="Hearts icon">
+            </summary>
+            <p>In the future, I plan to apply my explorations in computer science to tangibly
+            and deliberately improve the efficacy of non-computer science fields like biology or medicine.</p>
+        </details>
 
         <div class="end_of_page_hr">
             <!-- corresponding CSS: https://stackoverflow.com/questions/34713219/how-to-keep-a-hr-in-the-bottom-of-element -->
-            <hr>
+            <!-- <hr> -->
         </div>
+
+        <hr>
 
         <!-- <p class="end_of_page_copyright"> © Yash Karandikar </p> -->
 
