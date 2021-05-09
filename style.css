@@ -20,9 +20,10 @@ hr {
 
 .end_of_page_copyright {
     position: absolute;
-    bottom: 3em;
+    bottom: 0.5em;
     width: 100%;
     margin: 0;
+    font-size: 50%;
     text-align: center;
 }
 
@@ -91,21 +92,21 @@ button {
 input {
     margin-left: 32px;
     margin-right: 128px;
-    width: 48px;
-    height: 64px;
+    width: 32px;
+    height: 40px;
 }
 
 #comm {
     margin-left: 32px;
     margin-right: 128px;
-    width: 64px;
-    height: 64px;
+    width: 32px;
+    height: 36px;
 }
 
 #hearts {
     margin-left: 32px;
     margin-right: 128px;
-    width: 48px;
+    width: 40px;
     height: 32px;
 }
 
